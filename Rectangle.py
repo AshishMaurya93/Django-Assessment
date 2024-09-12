@@ -14,3 +14,4 @@ rect = Rectangle(10, 20)
 # Iterate over the rectangle instance
 for dimension in rect:
     print(dimension)
+    
