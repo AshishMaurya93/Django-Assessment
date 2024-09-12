@@ -1,3 +1,5 @@
+#By default, Django signals are executed synchronously. This means that when a signal is sent, the receiver function(s) are executed immediately and in the same thread as the sender.
+
 import time
 import django.dispatch
 
